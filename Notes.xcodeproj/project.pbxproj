@@ -15,6 +15,7 @@
 		4DF079B5295A48F400C38F4D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF079B4295A48F400C38F4D /* ComplicationController.swift */; };
 		4DF079B7295A48F500C38F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF079B6295A48F500C38F4D /* Assets.xcassets */; };
 		4DF079BA295A48F500C38F4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF079B9295A48F500C38F4D /* Preview Assets.xcassets */; };
+		4DF079CC295A4C4900C38F4D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF079CB295A4C4900C38F4D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		4DF079B6295A48F500C38F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF079B9295A48F500C38F4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DF079BB295A48F500C38F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF079CB295A4C4900C38F4D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,8 @@
 		4DF079AF295A48F400C38F4D /* Notes WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4DF079B0295A48F400C38F4D /* ContentView.swift */,
+				4DF079CA295A4C3900C38F4D /* Model */,
+				4DF079C9295A4C2700C38F4D /* View */,
 				4DF079B2295A48F400C38F4D /* NotesApp.swift */,
 				4DF079B4295A48F400C38F4D /* ComplicationController.swift */,
 				4DF079B6295A48F500C38F4D /* Assets.xcassets */,
@@ -129,6 +132,22 @@
 				4DF079B9295A48F500C38F4D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DF079C9295A4C2700C38F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DF079B0295A48F400C38F4D /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DF079CA295A4C3900C38F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DF079CB295A4C4900C38F4D /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 				4DF079B1295A48F400C38F4D /* ContentView.swift in Sources */,
 				4DF079B3295A48F400C38F4D /* NotesApp.swift in Sources */,
 				4DF079B5295A48F400C38F4D /* ComplicationController.swift in Sources */,
+				4DF079CC295A4C4900C38F4D /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  NotesApp.swift
 //  Notes WatchKit Extension
 //
-//  Created by David Alejandro Ruiz Hernandez on 26/12/22.
+//  Created by Alex Barreto on 26/12/22.
 //
 
 import SwiftUI
