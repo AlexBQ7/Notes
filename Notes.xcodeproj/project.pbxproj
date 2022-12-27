@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DD1A0F1295B6414001A8702 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1A0F0295B6414001A8702 /* DetailView.swift */; };
+		4DD1A0F3295B66DF001A8702 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1A0F2295B66DF001A8702 /* CreditsView.swift */; };
+		4DD1A0F6295B673D001A8702 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1A0F5295B673D001A8702 /* HeaderView.swift */; };
+		4DD1A0F8295B6A59001A8702 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1A0F7295B6A59001A8702 /* SettingsView.swift */; };
 		4DF079A1295A48F100C38F4D /* Notes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4DF079A0295A48F100C38F4D /* Notes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4DF079A6295A48F400C38F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF079A5295A48F400C38F4D /* Assets.xcassets */; };
 		4DF079AC295A48F400C38F4D /* Notes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4DF079AB295A48F400C38F4D /* Notes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -61,6 +65,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4DD1A0F0295B6414001A8702 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4DD1A0F2295B66DF001A8702 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		4DD1A0F5295B673D001A8702 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4DD1A0F7295B6A59001A8702 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		4DF0799C295A48F100C38F4D /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF079A0295A48F100C38F4D /* Notes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF079A5295A48F400C38F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DD1A0F4295B6729001A8702 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4DD1A0F5295B673D001A8702 /* HeaderView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		4DF07995295A48F100C38F4D = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +131,7 @@
 		4DF079AF295A48F400C38F4D /* Notes WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4DD1A0F4295B6729001A8702 /* Component */,
 				4DF079CA295A4C3900C38F4D /* Model */,
 				4DF079C9295A4C2700C38F4D /* View */,
 				4DF079B2295A48F400C38F4D /* NotesApp.swift */,
@@ -138,6 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				4DF079B0295A48F400C38F4D /* ContentView.swift */,
+				4DD1A0F0295B6414001A8702 /* DetailView.swift */,
+				4DD1A0F2295B66DF001A8702 /* CreditsView.swift */,
+				4DD1A0F7295B6A59001A8702 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,9 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF079B1295A48F400C38F4D /* ContentView.swift in Sources */,
+				4DD1A0F8295B6A59001A8702 /* SettingsView.swift in Sources */,
 				4DF079B3295A48F400C38F4D /* NotesApp.swift in Sources */,
 				4DF079B5295A48F400C38F4D /* ComplicationController.swift in Sources */,
+				4DD1A0F3295B66DF001A8702 /* CreditsView.swift in Sources */,
+				4DD1A0F1295B6414001A8702 /* DetailView.swift in Sources */,
 				4DF079CC295A4C4900C38F4D /* Model.swift in Sources */,
+				4DD1A0F6295B673D001A8702 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
